@@ -1,0 +1,491 @@
+@font-face {
+  font-family: "font-1";
+  src: url(./anime/MyHeroAcademia/assets/font.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: rgb(212, 59, 48);
+}
+
+::selection {
+  color: white;
+  background: rgb(212, 59, 48);
+}
+
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  background: #252525;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  height: 65px;
+  top: 50%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  /* suppression en attendant */
+  opacity: 0;
+}
+
+.nav-bar li {
+  display: block;
+  float: left;
+  padding: 1.5% 3vh;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 61%;
+  cursor: pointer;
+}
+
+.nav-bar li:hover {
+  color: rgb(212, 59, 48);
+}
+
+.nav-bar input {
+  border-radius: 50px;
+  width: 20vh;
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  transform: translateY(-20%);
+  outline: none;
+}
+
+/* temp logo */
+#logo-website {
+  position: absolute;
+  height: 65px;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  opacity: 1;
+}
+
+#nav-btn li {
+  margin: 0;
+  padding: 0;
+  top: 50%;
+}
+
+body {
+  background: rgb(37, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.banner-container {
+  position: relative;
+}
+.banner-gradient {
+  width: 100%;
+  height: 50vh;
+  background: rgb(37, 37, 37);
+  background: linear-gradient(
+    79deg,
+    rgba(37, 37, 37, 1) 42%,
+    rgba(212, 59, 48, 1) 56%,
+    rgba(212, 59, 48, 0.33657212885154064) 78%
+  );
+  position: absolute;
+  z-index: 1;
+}
+
+#banner-thumbnail {
+  height: 50vh;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 0;
+}
+
+#anime-logo {
+  height: 20vh;
+  position: absolute;
+  z-index: 2;
+  left: 4%;
+  top: 6vh;
+}
+
+h2 {
+  position: absolute;
+  z-index: 2;
+  left: 4%;
+  top: 29vh;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-container ul {
+  z-index: 2;
+  position: absolute;
+  left: 4%;
+  top: 33vh;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+
+#age,
+#ep,
+#seasons,
+#genre {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#anime-description {
+  position: absolute;
+  z-index: 2;
+  left: 4%;
+  top: 37vh;
+  color: white;
+  letter-spacing: 0.5px;
+  width: 60vh;
+}
+
+.season1-line1 {
+  display: flex;
+  height: 400px;
+  margin: 4rem auto;
+  position: absolute;
+  top: 60%;
+  left: 2.8%;
+}
+
+.text-container:hover {
+  transition: 0.2s;
+  background: rgb(212, 59, 48);
+  background: linear-gradient(
+    15deg,
+    rgba(212, 59, 48, 1) 20%,
+    rgba(212, 59, 48, 0.9) 40%,
+    rgba(37, 37, 37, 0) 80%
+  );
+}
+
+iframe {
+  width: 200vh;
+  height: 100vh;
+  overflow: initial;
+}
+
+/******************* Ajustement des saisons *******************/
+
+.image {
+  width: 280px;
+  height: 158px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  overflow: hidden;
+  position: absolute;
+}
+
+.text-container {
+  width: 280px;
+  height: 158px;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10000000;
+  background: linear-gradient(
+    15deg,
+    rgba(37, 37, 37, 0.87) 15%,
+    rgba(37, 37, 37, 0.6) 50%,
+    rgba(37, 37, 37, 0) 75%
+  );
+}
+
+.text {
+  position: absolute;
+  top: 65%;
+  text-shadow: 10px 10px 10px #252525;
+  color: white;
+  padding: 2%;
+  font-size: 1.2rem;
+}
+
+/******************* Saison 1 *******************/
+
+/* Séparateur de saison */
+
+.season1-separator h3 {
+  top: 61.5%;
+  left: 10.5%;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.season1-separator #before-sep {
+  top: 62.5%;
+  left: 3.5%;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+.season1-separator #after-sep {
+  top: 62.5%;
+  left: 15.5%;
+  width: 81%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+/* Paramètre de Grid */
+
+.season1-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.season1-grid {
+  z-index: 100;
+  height: fit-content;
+  position: absolute;
+  top: 66%;
+  left: 3%;
+  right: 3%;
+}
+
+/******************* Saison 2 *******************/
+
+/* Séparateur de saison */
+
+.season2-separator h3 {
+  top: 124.5%;
+  left: 10.5%;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.season2-separator #before-sep {
+  top: 125.5%;
+  left: 3.5%;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+.season2-separator #after-sep {
+  top: 125.5%;
+  left: 15.5%;
+  width: 81%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+/* Paramètre de Grid */
+
+.season2-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.season2-grid {
+  z-index: 100;
+  height: fit-content;
+  position: absolute;
+  top: 129%;
+  left: 3%;
+  right: 3%;
+}
+
+/******************* Saison 3 *******************/
+
+/* Séparateur de saison */
+
+.season3-separator h3 {
+  top: 224.5%;
+  left: 10.5%;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.season3-separator #before-sep {
+  top: 225.5%;
+  left: 3.5%;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+.season3-separator #after-sep {
+  top: 225.5%;
+  left: 15.5%;
+  width: 81%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+/* Paramètre de Grid */
+
+.season3-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.season3-grid {
+  z-index: 100;
+  height: fit-content;
+  position: absolute;
+  top: 229.5%;
+  left: 3%;
+  right: 3%;
+}
+
+/******************* Saison 4 *******************/
+
+/* Séparateur de saison */
+
+.season4-separator h3 {
+  top: 325%;
+  left: 10.5%;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.season4-separator #before-sep {
+  top: 326%;
+  left: 3.5%;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+.season4-separator #after-sep {
+  top: 326%;
+  left: 15.5%;
+  width: 81%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+/* Paramètre de Grid */
+
+.season4-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.season4-grid {
+  z-index: 100;
+  height: fit-content;
+  position: absolute;
+  top: 330%;
+  left: 3%;
+  right: 3%;
+}
+
+/******************* Saison 5 *******************/
+
+/* Séparateur de saison */
+
+.season5-separator h3 {
+  top: 425.5%;
+  left: 10.5%;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.season5-separator #before-sep {
+  top: 426.5%;
+  left: 3.5%;
+  width: 6%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+.season5-separator #after-sep {
+  top: 426.5%;
+  left: 15.5%;
+  width: 81%;
+  height: 3px;
+  position: absolute;
+  background: rgb(212, 59, 48);
+  z-index: 50;
+  border: none;
+}
+
+/* Paramètre de Grid */
+
+.season5-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.season5-grid {
+  z-index: 100;
+  height: fit-content;
+  position: absolute;
+  top: 430.5%;
+  left: 3%;
+  right: 3%;
+}
