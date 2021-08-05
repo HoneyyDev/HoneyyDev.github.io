@@ -484,62 +484,6 @@ a {
   right: 3%;
 }
 
-/*@media screen and (max-width: 1440px) {
-
-  .image {
-    width: 400px;
-    height: 225px;
-    margin: 10px;
-    cursor: pointer;
-    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-    overflow: hidden;
-    position: absolute;
-  }
-
-  .text-container {
-    width: 400px;
-    height: 225px;
-    margin: 10px;
-    cursor: pointer;
-    position: relative;
-    z-index: 10000000;
-    background: linear-gradient(
-      15deg,
-      rgba(37, 37, 37, 0.87) 15%,
-      rgba(37, 37, 37, 0.6) 50%,
-      rgba(37, 37, 37, 0) 75%
-    );
-  }
-
-  .text {
-    position: absolute;
-    top: 65%;
-    text-shadow: 10px 10px 10px #252525;
-    color: white;
-    padding: 2%;
-    font-size: 1.2rem;
-  }
-
-
-  .season1-grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 10px;
-    padding: 5px;
-    margin-top: 0px;
-    margin-left: 5px;
-  }
-
-  .season1-grid {
-    z-index: 100;
-    height: fit-content;
-    position: absolute;
-    top: 66%;
-    left: 3%;
-    right: 3%;
-  }
-}*/
-
 @media screen and (max-width: 1440px) {
   .nav-bar {
     width: 100%;
@@ -792,274 +736,274 @@ a {
     left: 3%;
     right: 3%;
   }
-}
 
-/******************* Saison 2 *******************/
+  /******************* Saison 2 *******************/
 
-/* Séparateur de saison */
+  /* Séparateur de saison */
 
-.season2-separator h3 {
-  top: 76.5%;
-  left: 10.5%;
-  position: absolute;
-  color: white;
-  z-index: 50;
-}
+  .season2-separator h3 {
+    top: 76.5%;
+    left: 10.5%;
+    position: absolute;
+    color: white;
+    z-index: 50;
+  }
 
-.season2-separator #before-sep {
-  top: 76.75%;
-  left: 3.5%;
-  width: 6%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season2-separator #before-sep {
+    top: 76.75%;
+    left: 3.5%;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-.season2-separator #after-sep {
-  top: 76.75%;
-  left: 17%;
-  width: 79%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season2-separator #after-sep {
+    top: 76.75%;
+    left: 17%;
+    width: 79%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-/* Paramètre de Grid */
+  /* Paramètre de Grid */
 
-.season2-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  .season2-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.season2-grid {
-  z-index: 100;
-  height: fit-content;
-  position: absolute;
-  top: 78.5%;
-  left: 3%;
-  right: 3%;
-}
+  .season2-grid {
+    z-index: 100;
+    height: fit-content;
+    position: absolute;
+    top: 78.5%;
+    left: 3%;
+    right: 3%;
+  }
 
-/******************* Saison 3 *******************/
+  /******************* Saison 3 *******************/
 
-/* Séparateur de saison */
+  /* Séparateur de saison */
 
-.season3-separator h3 {
-  top: 157.25%;
-  left: 10.5%;
-  position: absolute;
-  color: white;
-  z-index: 50;
-}
+  .season3-separator h3 {
+    top: 157.25%;
+    left: 10.5%;
+    position: absolute;
+    color: white;
+    z-index: 50;
+  }
 
-.season3-separator #before-sep {
-  top: 157.5%;
-  left: 3.5%;
-  width: 6%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season3-separator #before-sep {
+    top: 157.5%;
+    left: 3.5%;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-.season3-separator #after-sep {
-  top: 157.5%;
-  left: 17%;
-  width: 79%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season3-separator #after-sep {
+    top: 157.5%;
+    left: 17%;
+    width: 79%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-/* Paramètre de Grid */
+  /* Paramètre de Grid */
 
-.season3-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  .season3-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.season3-grid {
-  z-index: 100;
-  height: fit-content;
-  position: absolute;
-  top: 159.25%;
-  left: 3%;
-  right: 3%;
-}
+  .season3-grid {
+    z-index: 100;
+    height: fit-content;
+    position: absolute;
+    top: 159.25%;
+    left: 3%;
+    right: 3%;
+  }
 
-/******************* Saison 4 *******************/
+  /******************* Saison 4 *******************/
 
-/* Séparateur de saison */
+  /* Séparateur de saison */
 
-.season4-separator h3 {
-  top: 238%;
-  left: 10.5%;
-  position: absolute;
-  color: white;
-  z-index: 50;
-}
+  .season4-separator h3 {
+    top: 238%;
+    left: 10.5%;
+    position: absolute;
+    color: white;
+    z-index: 50;
+  }
 
-.season4-separator #before-sep {
-  top: 238.25%;
-  left: 3.5%;
-  width: 6%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season4-separator #before-sep {
+    top: 238.25%;
+    left: 3.5%;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-.season4-separator #after-sep {
-  top: 238.25%;
-  left: 17%;
-  width: 79%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season4-separator #after-sep {
+    top: 238.25%;
+    left: 17%;
+    width: 79%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-/* Paramètre de Grid */
+  /* Paramètre de Grid */
 
-.season4-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  .season4-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.season4-grid {
-  z-index: 100;
-  height: fit-content;
-  position: absolute;
-  top: 240%;
-  left: 3%;
-  right: 3%;
-}
+  .season4-grid {
+    z-index: 100;
+    height: fit-content;
+    position: absolute;
+    top: 240%;
+    left: 3%;
+    right: 3%;
+  }
 
-/******************* Saison 4 *******************/
+  /******************* Saison 4 *******************/
 
-/* Séparateur de saison */
+  /* Séparateur de saison */
 
-.season4-separator h3 {
-  top: 238.5%;
-  left: 10.5%;
-  position: absolute;
-  color: white;
-  z-index: 50;
-}
+  .season4-separator h3 {
+    top: 238.5%;
+    left: 10.5%;
+    position: absolute;
+    color: white;
+    z-index: 50;
+  }
 
-.season4-separator #before-sep {
-  top: 238.75%;
-  left: 3.5%;
-  width: 6%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season4-separator #before-sep {
+    top: 238.75%;
+    left: 3.5%;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-.season4-separator #after-sep {
-  top: 238.75%;
-  left: 17%;
-  width: 79%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season4-separator #after-sep {
+    top: 238.75%;
+    left: 17%;
+    width: 79%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-/* Paramètre de Grid */
+  /* Paramètre de Grid */
 
-.season4-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  .season4-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.season4-grid {
-  z-index: 100;
-  height: fit-content;
-  position: absolute;
-  top: 240.5%;
-  left: 3%;
-  right: 3%;
-}
+  .season4-grid {
+    z-index: 100;
+    height: fit-content;
+    position: absolute;
+    top: 240.5%;
+    left: 3%;
+    right: 3%;
+  }
 
-/******************* Saison 5 *******************/
+  /******************* Saison 5 *******************/
 
-/* Séparateur de saison */
+  /* Séparateur de saison */
 
-.season5-separator h3 {
-  top: 319.5%;
-  left: 10.5%;
-  position: absolute;
-  color: white;
-  z-index: 50;
-}
+  .season5-separator h3 {
+    top: 319.5%;
+    left: 10.5%;
+    position: absolute;
+    color: white;
+    z-index: 50;
+  }
 
-.season5-separator #before-sep {
-  top: 319.75%;
-  left: 3.5%;
-  width: 6%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season5-separator #before-sep {
+    top: 319.75%;
+    left: 3.5%;
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-.season5-separator #after-sep {
-  top: 319.75%;
-  left: 17%;
-  width: 79%;
-  height: 3px;
-  position: absolute;
-  background: rgb(212, 59, 48);
-  z-index: 50;
-  border: none;
-}
+  .season5-separator #after-sep {
+    top: 319.75%;
+    left: 17%;
+    width: 79%;
+    height: 3px;
+    position: absolute;
+    background: rgb(212, 59, 48);
+    z-index: 50;
+    border: none;
+  }
 
-/* Paramètre de Grid */
+  /* Paramètre de Grid */
 
-.season5-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
+  .season5-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
 
-.season5-grid {
-  z-index: 100;
-  height: fit-content;
-  position: absolute;
-  top: 321.5%;
-  left: 3%;
-  right: 3%;
+  .season5-grid {
+    z-index: 100;
+    height: fit-content;
+    position: absolute;
+    top: 321.5%;
+    left: 3%;
+    right: 3%;
+  }
 }
