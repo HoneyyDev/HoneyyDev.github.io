@@ -71,6 +71,7 @@
   left: 20%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
+  font-family : "font-1";
   color: white;
   opacity: 1;
 }
