@@ -38,7 +38,7 @@ body {
   left: 0;
   width: 300px;
   height: 80px;
-  background-image: url(../../honey@0001/assets/profil-img/banner.gif);
+  background-image: url(banner.gif);
   background-position: -100px;
   animation: dsTop 1.5s;
 }
